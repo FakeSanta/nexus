@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .empty {
@@ -14,4 +14,35 @@
   background: var(--card-bg);
   border-radius: 16px;
   border: 2px dashed var(--card-border);
+}
+
+.filterBar {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.filterBtn {
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+    border: 1px solid var(--card-border);
+    background: rgba(30, 41, 59, 0.4);
+    color: #94a3b8;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filterBtn:hover {
+    background: rgba(30, 41, 59, 0.8);
+    color: #fff;
+}
+
+.activeFilter {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    box-shadow: 0 4px 12px -2px rgba(59, 130, 246, 0.5);
 }
