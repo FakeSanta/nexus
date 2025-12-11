@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Proxmox (Ra - Chaac - Thanatos)",
+    "ip": "172.16.1.50",
+    "type": "proxmox",
+    "actionType": "web",
+    "port": "8006",
+    "id": "1765354210223"
+  },
+  {
+    "name": "Proxmox 2 (Artemis - Neptune - Poseidon)",
+    "ip": "172.16.1.220",
+    "type": "proxmox",
+    "actionType": "web",
+    "port": "8006",
+    "id": "1765354258966"
+  },
+  {
+    "name": "Apollon",
+    "ip": "172.16.1.249",
+    "type": "hyperv",
+    "actionType": "rdp",
+    "port": "",
+    "id": "1765354275458"
+  },
+  {
+    "name": "Sangoku",
+    "ip": "172.16.1.199",
+    "type": "vm",
+    "actionType": "rdp",
+    "port": "",
+    "id": "1765354486954"
+  },
+  {
+    "name": "FOG",
+    "ip": "172.16.1.45/fog",
+    "type": "vm",
+    "actionType": "web",
+    "port": "",
+    "id": "1765454359720"
+  }
+]
