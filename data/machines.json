@@ -38,5 +38,21 @@
     "actionType": "web",
     "port": "",
     "id": "1765454359720"
+  },
+  {
+    "name": "HP Agent",
+    "ip": "172.16.4.104",
+    "type": "printer",
+    "actionType": "web",
+    "port": "",
+    "id": "1765531237495"
+  },
+  {
+    "name": "test ping",
+    "ip": "172.16.6.85",
+    "type": "printer",
+    "actionType": "web",
+    "port": "",
+    "id": "1765531266759"
   }
 ]

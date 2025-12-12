@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LayoutDashboard, PlusCircle } from 'lucide-react';
+import { LayoutDashboard, PlusCircle, Printer } from 'lucide-react';
 import styles from './Navigation.module.css';
 
 export default function Navigation() {
@@ -19,6 +19,10 @@ export default function Navigation() {
                 <Link href="/" className={`${styles.link} ${pathname === '/' ? styles.active : ''}`}>
                     <LayoutDashboard size={18} />
                     Dashboard
+                </Link>
+                <Link href="/printers" className={`${styles.link} ${pathname === '/printers' ? styles.active : ''}`}>
+                    <Printer size={18} />
+                    Printers
                 </Link>
                 <Link href="/add" className={`${styles.link} ${pathname === '/add' ? styles.active : ''}`}>
                     <PlusCircle size={18} />

@@ -72,6 +72,7 @@ export default function AddMachine() {
                             <option value="vm">Virtual Machine</option>
                             <option value="proxmox">Proxmox Node</option>
                             <option value="hyperv">Hyper-V Host</option>
+                            <option value="printer">Printer</option>
                         </select>
                     </div>
 

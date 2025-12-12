@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { Monitor, Server, Globe, Download, Trash2, Activity } from 'lucide-react';
+import { Monitor, Server, Globe, Download, Trash2, Activity, Printer } from 'lucide-react';
 import { downloadRdp } from '@/lib/rdp';
 import styles from './MachineCard.module.css';
 
@@ -71,7 +71,8 @@ export default function MachineCard({ machine, onDelete }) {
                 <div className={styles.iconWrapper}>
                     {machine.type === 'proxmox' ? <Server size={24} color="#fff" /> :
                         machine.type === 'hyperv' ? <Activity size={24} color="#fff" /> :
-                            <Monitor size={24} color="#fff" />}
+                            machine.type === 'printer' ? <Printer size={24} color="#fff" /> :
+                                <Monitor size={24} color="#fff" />}
                 </div>
                 <div className={styles.statusIndicator}>
                     {loading ? (
