@@ -40,19 +40,19 @@
     "id": "1765454359720"
   },
   {
-    "name": "HP Agent",
-    "ip": "172.16.4.104",
-    "type": "printer",
+    "name": "MediaCMS",
+    "ip": "172.16.1.143",
+    "type": "vm",
     "actionType": "web",
     "port": "",
-    "id": "1765531237495"
+    "id": "1765461795922"
   },
   {
-    "name": "test ping",
-    "ip": "172.16.6.85",
-    "type": "printer",
+    "name": "GLPI",
+    "ip": "172.16.1.47/glpi",
+    "type": "vm",
     "actionType": "web",
     "port": "",
-    "id": "1765531266759"
+    "id": "1765462001238"
   }
 ]
